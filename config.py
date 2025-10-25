@@ -50,7 +50,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EternalsHelplineBot")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EternalsHelplineBot")
 
 # ───── Assistant Auto Leave ───── #
-AUTO_LEAVING_ASSISTANT = False
+AUTO_LEAVING_ASSISTANT = True
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "3600"))
 
 # ───── Error Handling ───── #
@@ -75,22 +75,21 @@ START_VIDS = [
 ]
 
 STICKERS = [
-    "CAACAgUAAx0Cd6nKUAACASBl_rnalOle6g7qS-ry-aZ1ZpVEnwACgg8AAizLEFfI5wfykoCR4h4E",
-    "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ"
+    "CAACAgUAAx0CbtMXSgABAW6caMkVZHh-SOgPD2le3Jj11X3RKHIAAlQcAAJtkUhWuAQct1VGfYkeBA"
 ]
-HELP_IMG_URL = "https://files.catbox.moe/h3jqa8.jpg"
-PING_VID_URL = "https://files.catbox.moe/mi8nr0.mp4"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/t72ntd.jpg"
-STATS_VID_URL = "https://files.catbox.moe/5vdaw5.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/90juvd.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/7qplwr.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/4roh51.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/wpkxzt.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/cq87ww.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/qp5aa5.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/qp5aa5.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/qp5aa5.jpg"
-FAILED = "https://files.catbox.moe/cq87ww.jpg"
+HELP_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+PING_VID_URL = "https://files.catbox.moe/p9kywd.mp4"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+STATS_VID_URL = "https://files.catbox.moe/p9kywd.mp4"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/a8jnkm.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/a8jnkm.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/a8jnkm.jpg"
+FAILED = "https://files.catbox.moe/a8jnkm.jpg"
 
 
 # ───── Utility & Functional ───── #
@@ -101,7 +100,7 @@ DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
 
 # ───── Bot Introduction Messages ───── #
-AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌", "🧨"]
+AYU = ["💌"]
 
 
 # ───── Runtime Structures ───── #
