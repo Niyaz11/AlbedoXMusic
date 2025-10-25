@@ -15,7 +15,7 @@ OWNER_ID = ("7654385403")
 OWNER_USERNAME = ("EternalsHelplineBot")
 BOT_USERNAME = ("AlbedoXRobot")
 BOT_NAME = ("Albedo Music")
-ASSUSERNAME = ("Albedo Assistant"))
+ASSUSERNAME = ("Albedo Assistant")
 EVALOP = list(map(int, getenv("EVALOP", "7654385403").split()))
 
 # ───── Mongo & Logging ───── #
