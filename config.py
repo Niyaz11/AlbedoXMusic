@@ -9,7 +9,7 @@ load_dotenv()
 # ── Core bot config ────────────────────────────────────────────────────────────
 API_ID = ("29245477")
 API_HASH = ("0abc83883262245c90ca337b7a0375c4")
-BOT_TOKEN = ("")
+BOT_TOKEN = ("8462016049:AAENqxWLz47Voq014jqH4irYCJ43997Hnd8")
 
 OWNER_ID = ("7654385403")
 OWNER_USERNAME = ("EternalsHelplineBot")
@@ -19,7 +19,7 @@ ASSUSERNAME = ("Albedo Assistant"))
 EVALOP = list(map(int, getenv("EVALOP", "7654385403").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = ("")
+MONGO_DB_URI = ("mongodb+srv://musicxrobot:8Up92WwJbgUS39FV@cluster0.ys1jirt.mongodb.net/")
 LOGGER_ID = (-1002456565415)
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
@@ -41,7 +41,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ───── Git & Updates ───── #
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CertifiedDevloper/TuneViaBot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Niyaz11/AlbedoXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
@@ -61,7 +61,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ───── Session Strings ───── #
-STRING1 = ""
+STRING1 = "BQG-QCUAokEaPu4bb4O9P59dbo9te5Gyc0K0Cqkrh--op5pGZgiLYqhsTG6Y1_N84u7SCErMr3EPBV184hL1TQOfl6_eH5WGSYokUegnSdGPsKRyBrNNwOalEkbMg695CwI_fquyzpSCg-ScBcNd40OOfI2REmmujpc7z6mzlt2cs83Wd1pfY-hHd3IzxW8g8ZZFIrxUT1A_vHDX7rRz3B2IsZ3dUJUAKRbHfac94IVQ4bZJZHKVYac_TIlReRqkQafDr5sf8wz9ge8NyvSzt5AkAiNeFK1lnParhNdZXZz8ahEE1h-qoArBrMvk449MZBdqYywSUc6iAfkizY8G0_WElIWtlgAAAAFZG6IeAA"
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
