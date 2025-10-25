@@ -7,20 +7,20 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = ("29245477")
+API_HASH = ("0abc83883262245c90ca337b7a0375c4")
+BOT_TOKEN = ("")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "TuneviaBot")
-BOT_NAME = getenv("BOT_NAME", "˹ᴛᴜɴᴇ ᴠɪᴀ ʙᴏᴛ˼")
-ASSUSERNAME = getenv("ASSUSERNAME", "tuneviaassis")
-EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
+OWNER_ID = ("7654385403")
+OWNER_USERNAME = ("EternalsHelplineBot")
+BOT_USERNAME = ("AlbedoXRobot")
+BOT_NAME = ("Albedo Music")
+ASSUSERNAME = ("Albedo Assistant"))
+EVALOP = list(map(int, getenv("EVALOP", "7654385403").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+MONGO_DB_URI = ("")
+LOGGER_ID = (-1002456565415)
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -31,10 +31,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1288490189"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("COOKIE_URL")  # required (paste link)
-API_URL = getenv("API_URL")        # optional
-API_KEY = getenv("API_KEY")        # optional
+COOKIE_URL = "https://batbin.me/bractea"  # required (paste link)
 
+API_URL = getenv("")        
+
+API_KEY = getenv("1a853d_YG-HBNXmKh7S3aZOC3Czqa3CuGI7Jh2n")
 # ───── Heroku Configuration ───── #
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -45,8 +46,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EternalsHelplineBot")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EternalsHelplineBot")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
@@ -60,7 +61,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ───── Session Strings ───── #
-STRING1 = getenv("STRING_SESSION")
+STRING1 = ""
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
@@ -70,9 +71,7 @@ STRING5 = getenv("STRING_SESSION5")
 
 # ───── Bot Media Assets ───── #
 START_VIDS = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4"
+    "https://files.catbox.moe/p9kywd.mp4"
 ]
 
 STICKERS = [
