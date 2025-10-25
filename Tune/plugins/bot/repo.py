@@ -15,7 +15,7 @@ sᴜᴘᴘᴏʀᴛ @EternalsHelplineBot
 @app.on_message(filters.command("repo"))
 async def show_repo(_, msg):
     buttons = [
-        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/EternalsHelplineBot"),
             InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Anime_Chatting_Groups")
